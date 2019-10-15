@@ -13,3 +13,8 @@ are enabled:
 • gd: Enables PHP to generate and modify images and fonts.
 • mysqli: Connects to MySQL/MariaDB (note the “i,” which stands for “improved.”
 PHP 7 doesn’t support the older mysql one, which should no longer be used).
+
+• PDO: Provides software-neutral support for databases (optional).
+• pdo_mysql: Alternative method of connecting to MySQL/MariaDB (optional).
+• session: Sessions maintain information associated with a user and are used,
+among other things, for user authentication.
