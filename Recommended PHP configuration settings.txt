@@ -1,0 +1,15 @@
+Table 2-1. Recommended PHP configuration settings
+Directive Local value Remarks
+display_errors On Essential for debugging mistakes in your scripts. If
+set to Off, errors result in a completely blank screen,
+leaving you clueless as to the possible cause.
+error_reporting 32767 This sets error reporting to the highest level.
+file_uploads On Allows you to use PHP to upload files to a web site.
+log_errors Off With display_errors set on, you don’t need to fill
+your hard disk with an error log.
+
+make sure the following extensions
+are enabled:
+• gd: Enables PHP to generate and modify images and fonts.
+• mysqli: Connects to MySQL/MariaDB (note the “i,” which stands for “improved.”
+PHP 7 doesn’t support the older mysql one, which should no longer be used).
