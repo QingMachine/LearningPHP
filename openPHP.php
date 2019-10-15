@@ -1,0 +1,1 @@
+<p>This is HTML with embedded PHP<?php //some PHP code ?>.</p>
