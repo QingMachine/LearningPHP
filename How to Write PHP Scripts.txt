@@ -1,0 +1,10 @@
+Every PHP page must have the following:
+• The correct filename extension, usually .php
+• PHP tags surrounding each block of PHP code (the closing PHP tag is optional if the
+file contains only PHP code)
+A typical PHP page will use some or all of the following elements:
+• Variables to act as placeholders for unknown or changing values
+• Arrays to hold multiple values
+• Conditional statements to make decisions
+• Loops to perform repetitive tasks
+• Functions or objects to perform preset tasks
